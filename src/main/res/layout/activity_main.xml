@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/cyan_light"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="40dp"
+         />
+
+    <EditText
+        android:id="@+id/Edt_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edit_desgin"
+        android:fontFamily="serif"
+        android:hint="User id"
+        android:textAlignment="center"
+        android:textColor="@color/colorLiteBlue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/Edt_pass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edit_desgin"
+        android:fontFamily="serif"
+        android:hint="Password"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:textColor="@color/colorLiteBlue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Remember "
+        android:id="@+id/ch_rember"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorLiteBlue"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:id="@+id/btn_sub"
+       android:fontFamily="serif"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="10dp"
+       android:layout_marginRight="10dp"
+       android:text="Log in"
+       android:textSize="25dp"
+       android:textStyle="bold"
+       android:textColor="@color/white"
+       android:background="@drawable/button_design"/>
+
+</LinearLayout>
